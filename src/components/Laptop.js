@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Laptop(laptop, key) {
+function Laptop(laptop, key, brand, name) {
     return (
         <div>
-            {laptop}
+            {laptop} {name} {brand}
 
-            <button>Show more :</button>
+            <button></button>
         </div>
     )
 }
