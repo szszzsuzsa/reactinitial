@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Laptop(laptop, key, brand, name) {
+function Laptop({laptop, key, brand, name}) {
     return (
         <div>
             {laptop} {name} {brand}

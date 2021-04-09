@@ -37,7 +37,7 @@ const App = () => {
       ) : (
         
        <div> {laptops.map((laptop, index) => (
-         <div className="laptop" key={laptop.name}> {console.log(laptop.name)}
+         <div className="laptop" key={index}> {console.log(laptop.name)}
           <Laptop
             key={index}
             laptop={laptop.name}
